@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Room_2</class>
+ <widget class="QWidget" name="Room_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>781</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/picture_room2.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_jeu1">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>240</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Choisis tes fruits !</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_jeu2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>240</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Le sais-tu ?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_jeu3">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>240</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Décode !</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ans3_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>23 kg éq. CO2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ans1_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>12 kg éq. CO2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="resultmessage">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>421</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/picture_bravo.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="question_label">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>340</y>
+     <width>701</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Savez-vous combien émet en moyenne &lt;span style=&quot; font-weight:700;&quot;&gt;1kg de haricots verts importé&lt;/span&gt; en France en kg équivalent CO2 ?&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;(1kg de haricots provenant d'une production locale émet en moyenne 0,7 kg éq CO2)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>530</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PushButton</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ans2_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>490</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>31 kg éq. CO2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="info_label">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>320</y>
+     <width>341</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>true</bool>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::WinPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt;Plus de &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:700;&quot;&gt;4 millions de tonnes&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt; de fruits et légumes frais sont &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:700;&quot;&gt;importés en France chaque année&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt;. Le transport de l’ensemble de ces fruits et légumes importés induit une consommation de près de &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:700;&quot;&gt;250 000 tonnes&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt; équivalent &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:700;&quot;&gt;pétrole&lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt; et les émissions de près de &lt;/span&gt;&lt;span style=&quot; font-family:'sans-serif'; font-weight:700;&quot;&gt;1 000 000 tonnes équivalent CO2.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'sans-serif';&quot;&gt;Pensez donc à p&lt;/span&gt;rivilégier des aliments cultivés en saison et produits localement !&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="margin">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="nextRoom_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>501</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Youpi !
+Vous avez sauvé le monde si facilement !
+Avec vos efforts nous réussirons à réduire le réchauffement climatique</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="completed_picture">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>90</y>
+     <width>281</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/picture_room_end.JPG</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton_jeu1</zorder>
+  <zorder>pushButton_jeu2</zorder>
+  <zorder>pushButton_jeu3</zorder>
+  <zorder>ans3_pushButton</zorder>
+  <zorder>ans1_pushButton</zorder>
+  <zorder>question_label</zorder>
+  <zorder>ans2_pushButton</zorder>
+  <zorder>next_pushButton</zorder>
+  <zorder>resultmessage</zorder>
+  <zorder>info_label</zorder>
+  <zorder>nextRoom_pushButton</zorder>
+  <zorder>completed_picture</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
